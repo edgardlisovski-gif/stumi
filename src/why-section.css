@@ -1,0 +1,15 @@
+.why-photo {
+  display: none;
+}
+
+.why-grid {
+  grid-template-columns: 1fr;
+  min-height: 0;
+}
+
+.why-content {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: clamp(38px, 8vw, 95px) 0 clamp(58px, 7vw, 80px);
+}
